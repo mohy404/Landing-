@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Name - Landing Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Features</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="hero">
+			<h1>Product Name</h1>
+			<p>The tagline for your product goes here.</p>
+			<button id="get-started-btn">Get Started</button>
+		</section>
+		
+		<section id="features">
+			<h2>Key Features</h2>
+			<ul>
+				<li>Feature 1</li>
+				<li>Feature 2</li>
+				<li>Feature 3</li>
+				<li>Feature 4</li>
+			</ul>
+		</section>
+		
+		<section id="pricing">
+			<h2>Pricing</h2>
+			<p>Describe your pricing plans here.</p>
+			<button>Sign Up</button>
+		</section>
+		
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<p>Include a contact form or your contact information here.</p>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Product Name. All rights reserved.</p>
+	</footer>
+
+	<script>
+		// get a reference to the "Get Started" button
+		const getStartedBtn = document.getElementById("get-started-btn");
+
+		// add an event listener for the button's click event
+		getStartedBtn.addEventListener("click", function() {
+			// show an alert message when the button is clicked
+			alert("Thank you for your interest! We'll be in touch soon.");
+		});
+	</script>
+</body>
+</html>
